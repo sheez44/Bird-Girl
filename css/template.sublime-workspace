@@ -27,7 +27,7 @@
 			"file": "variables.less",
 			"settings":
 			{
-				"buffer_size": 17233,
+				"buffer_size": 17994,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 21251,
+				"buffer_size": 22269,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "/C/wamp/www/template/index.html",
 			"settings":
 			{
-				"buffer_size": 7019,
+				"buffer_size": 7038,
 				"line_ending": "Windows"
 			}
 		}
@@ -145,6 +145,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"href	",
 			"hidden",
 			"%;\n",
 			"54%",
@@ -193,15 +194,15 @@
 					"file": "variables.less",
 					"settings":
 					{
-						"buffer_size": 17233,
+						"buffer_size": 17994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16534,
-								16534
+								8610,
+								8610
 							]
 						],
 						"settings":
@@ -210,7 +211,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 23471.0,
+						"translation.y": 10678.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -246,7 +247,7 @@
 					"file": "styles.css",
 					"settings":
 					{
-						"buffer_size": 21251,
+						"buffer_size": 22269,
 						"regions":
 						{
 						},
@@ -308,15 +309,15 @@
 					"file": "/C/wamp/www/template/index.html",
 					"settings":
 					{
-						"buffer_size": 7019,
+						"buffer_size": 7038,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								615,
-								615
+								676,
+								676
 							]
 						],
 						"settings":
@@ -326,7 +327,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 66.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
