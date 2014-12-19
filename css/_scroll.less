@@ -1,0 +1,35 @@
+.anim-img, .sub-img span {
+	opacity: 0;
+}
+#bird {
+	position: relative;
+	left: -7em;
+}
+
+@-webkit-keyframes fadeIn { from { opacity: 0} to { opacity: 1;}}
+@-moz-keyframes fadeIn { from { opacity: 0} to { opacity: 1;}}
+@keyframes fadeIn { from { opacity: 0} to { opacity: 1;}}
+ 
+ .animate {
+ 	transition: 3s ease-in-out;
+ 	animation: fadeIn ease-in 1s;
+	animation-fill-mode: forwards;
+	animation-duration: 3s;
+ }
+
+ #bird.animate {
+ 	transform: translate(7em,0);
+ }
+
+ .sub-img span.grow-img {
+ 	opacity: 1;
+ 	transition: opacity 2s ease-in;
+ }
+ .sub-img.grow-img {
+ 	height: 7rem !important;
+ 	width: 7rem !important;
+ }
+
+ .animated.ring {
+ 	animation-iteration-count: 2;
+ }

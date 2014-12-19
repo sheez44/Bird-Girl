@@ -17,6 +17,7 @@
 html {
 	font-size: 62.5%;
 }
+
 body {
 	font-family: @fontDefault;
 }
@@ -119,11 +120,12 @@ header {
 		flex: 1;
 		padding: 8rem 0 9rem 0;
 		.sub-img{
-			width: 7rem;
-			height: 7rem;
+			width: 0;
+			height: 0;
 			border-radius: 50%;
 			background-color: @accentColor;
 			float: left;
+			transition: all 2.5s ease;
 		}	
 		span {
 			padding: 20px;
@@ -1126,3 +1128,5 @@ footer {
 		}
 	}
 }
+
+@import "_scroll";
