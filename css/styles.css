@@ -109,14 +109,11 @@ header nav ul li a {
   transition: all 2.5s ease;
 }
 .flex-wrap > .wrap span {
-  padding: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #fff;
-}
-.flex-wrap > .wrap span:nth-of-type(2) span {
-  padding: 23px;
-}
-.flex-wrap > .wrap span:nth-of-type(3) span {
-  padding: 23px;
 }
 .flex-wrap > .wrap .sub-text {
   float: right;
